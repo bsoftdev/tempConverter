@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Conversor de temperatura</title>
+</head>
+<body>
+	<div class="titulo"><h1>CONVERSOR DE TEMPERATURA</h1></div>
+		<div class="acoes">
+			<input type="number" name="numero" placeholder="Insira o valor da temperatura" id="temperatura">
+			<select id="opcoes">
+				<option value="ceusius">Ceusius</option>
+				<option value="kelvin">Kelvin</option>
+				<option value="fahrenheit">Fahrenheit</option>
+			</select>
+			<button onclick="converter_temperatura()" class="btn">Converter</button>
+		</div>
+		<div class="grau">
+			<h1 id="resultado">Resultado</h1>
+		</div>
+
+	<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
